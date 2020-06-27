@@ -17,7 +17,6 @@ body{
     flex-direction: row;
     flex:auto;
     justify-content: center;
-    
 }
 
 .colonne{
@@ -43,12 +42,55 @@ body{
 /*Profil*/
 
 .colonne span img {
-    display: flex;
-    width: 15vh;
+    width: 12vh;
+    max-width: 12vh;
     clip-path:ellipse(50% 50%);
     position: fixed;
-    margin-left: 1.5rem;
+    margin-left: 2.3rem;
     margin-top: 2rem;
     margin-right: 1rem;
+    display: flex;
 }
 
+.rectangleUn{
+    margin-top: 18vh;
+    width: 100%;
+    min-width: 100%;
+    height: 3%;
+    background-color: #404040;   
+}
+
+.rectangleUn:before{
+    display: block;
+    content: "";
+}
+
+.content{
+    color:orange;
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+}
+
+.contact{
+    position: relative;
+    margin-top: 21vh;
+    margin-left: -17vh;
+    font-size: small;
+}
+
+/*à propo de moi*/
+
+.rectangleDeux{
+    background-color: #404040;
+    width: 100%;
+    min-width: 100%;
+    height: 3%;
+    margin-top: 43vh;
+    margin-left: -12.5vh;
+}
+
+.rectangleDeux:before{
+    display: block;
+    content: "";
+}
