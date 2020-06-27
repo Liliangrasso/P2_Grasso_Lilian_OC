@@ -94,3 +94,23 @@ body{
     display: block;
     content: "";
 }
+
+.contentDeux{
+    color:orange;
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem; 
+}
+
+.apropos{
+    position: relative;
+    margin-top: 46vh;
+    margin-left: -17.5vh;
+    font-size: small;
+}
+
+/*Loisir*/
+
+.rectangleTrois{
+    
+}
