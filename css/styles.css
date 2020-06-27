@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(197, 197, 197);
 }
 
 .container{
@@ -28,11 +29,11 @@ body{
 }
 
 .gauche{
-    background-color: green;
+    background-color: #feca07;
 }
 
 .droite{
-    background-color: rgb(128, 0, 0);
+    background-color: white;
     max-width: 35%;
     min-width: 35%;
 }
@@ -66,7 +67,7 @@ body{
 }
 
 .content{
-    color:orange;
+    color:#feca07;
     display: flex;
     justify-content: center;
     margin-top: -1rem;
@@ -74,9 +75,10 @@ body{
 
 .contact{
     position: relative;
-    margin-top: 21vh;
+    margin-top: 20.5vh;
     margin-left: -17vh;
-    font-size: small;
+    font-size: 85%;
+    font-family: 'MuseoModerno', cursive;
 }
 
 /*à propo de moi*/
@@ -86,8 +88,8 @@ body{
     width: 100%;
     min-width: 100%;
     height: 3%;
-    margin-top: 43vh;
-    margin-left: -12.5vh;
+    margin-top: 45vh;
+    margin-left: -15vh;
 }
 
 .rectangleDeux:before{
@@ -96,7 +98,7 @@ body{
 }
 
 .contentDeux{
-    color:orange;
+    color:#feca07;
     display: flex;
     justify-content: center;
     margin-top: -1rem; 
@@ -104,13 +106,60 @@ body{
 
 .apropos{
     position: relative;
-    margin-top: 46vh;
-    margin-left: -17.5vh;
-    font-size: small;
+    margin-top: 48vh;
+    margin-left: -17vh;
+    font-size: 85%;
+    font-family: 'MuseoModerno', cursive;
 }
 
 /*Loisir*/
 
 .rectangleTrois{
-    
+    background-color: #404040;
+    width: 100%;
+    min-width: 100%;
+    height: 3%;
+    margin-top: 90vh;
+    margin-left: -13.1vh;
 }
+
+.rectangleTrois:before{
+    display: block;
+    content: "";
+}
+
+.contentTrois{
+    color:#feca07;
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem; 
+}
+
+.musique{
+    position: fixed;
+    padding-left: 10%;
+    font-size: 1.5rem;
+    margin-top: 95vh;
+    margin-left: -36.3vh;
+    color:#404040
+}
+
+.code{
+    position: fixed;
+    padding-left: 10%;
+    font-size: 1.5rem;
+    margin-top: 95vh;
+    margin-left: -31.8vh;
+    color:#404040
+}
+
+.moto{
+    position: fixed;
+    padding-left: 10%;
+    font-size: 1.5rem;
+    margin-top: 95vh;
+    margin-left: -27vh;
+    color:#404040
+}
+
+
